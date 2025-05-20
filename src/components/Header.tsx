@@ -1,0 +1,44 @@
+import {
+  Link, 
+} from "@tanstack/react-router";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarCollapse,
+  NavbarLink,
+  NavbarToggle,
+} from "flowbite-react";
+import logo from "@/images/logo.svg";
+
+export function Header(){
+
+    return (
+        <header className="App-header">
+          <Navbar fluid className="w-full">
+            <NavbarBrand as={Link} href="/">
+              <img
+                src={logo}
+                className="mr-3 h-6 sm:h-9"
+                alt="Logo Los Cenizaros"
+              />
+            </NavbarBrand>
+            <NavbarToggle />
+            <NavbarCollapse>
+              <NavbarLink href="/" active>
+                Home
+              </NavbarLink>
+              <NavbarLink as={Link} href="/menu">
+                Menu
+              </NavbarLink>
+              <NavbarLink as={Link} href="/hosting">
+                Hospedaje
+              </NavbarLink>
+              <NavbarLink as={Link} href="/contact">
+                Contáctenos
+              </NavbarLink>
+            </NavbarCollapse>
+          </Navbar>
+        </header>
+        
+    )
+}

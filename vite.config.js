@@ -4,16 +4,10 @@ import tailwindcss from "@tailwindcss/vite";
 
 import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 import { resolve } from "node:path";
-import flowbiteReact from "flowbite-react/plugin/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    TanStackRouterVite({ autoCodeSplitting: true }),
-    viteReact(),
-    tailwindcss(),
-    flowbiteReact()
-  ],
+  plugins: [TanStackRouterVite({ autoCodeSplitting: true }), viteReact(), tailwindcss()],
   test: {
     globals: true,
     environment: "jsdom",
@@ -24,6 +18,6 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: true
+    allowedHosts: true,
   }
 });

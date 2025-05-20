@@ -9,9 +9,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.customImg{
+  background-image: image-set( "./images/bg-s.png" 1x, "./images/bg.png" 2x)
+}
+
+.App {  
+@apply flex items-center justify-center h-[calc(100dvh-60px)] max-w-screen-xl bg-fixed bg-center bg-cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  @apply w-full bg-gray-800 flex justify-between items-center text-lg text-white;
+
+}
+
+.App-link {
+  @apply text-red-500;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
