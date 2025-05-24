@@ -8,7 +8,7 @@ import config from './config/config';
 app.use(
     cors({
         origin: config.URL_HOST,
-        methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+        methods: ['POST'],
         credentials: true,
     }),
 );

@@ -65,7 +65,7 @@ function RouteComponent() {
     try {
       setIsSendEmail(true);
       const response = await useSendEmail(
-        "https://api.xtremeart.net/api/send",
+        "https://qr.xtremeart.net/api/send",
         dataToSend,
       );
 
