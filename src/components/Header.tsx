@@ -23,7 +23,7 @@ export function Header(){
               />
             </NavbarBrand>
             <NavbarToggle />
-            <NavbarCollapse>
+            <NavbarCollapse >
               <NavbarLink as={Link} href="/" >
                 Home
               </NavbarLink>

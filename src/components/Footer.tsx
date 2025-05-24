@@ -9,6 +9,8 @@ import {
   Button
 } from "flowbite-react";
 
+import {Link} from "@tanstack/react-router";
+
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { SiWhatsapp } from "react-icons/si";
 // import logo from "@/images/logo.svg";
@@ -42,10 +44,10 @@ export const FooterComponent = () => {
             </Button>
           </div>
           <FooterLinkGroup>
-            <FooterLink href="/">Home</FooterLink>
-            <FooterLink href="/menu">Menú</FooterLink>
-            <FooterLink href="/hosting">Hospedaje</FooterLink>
-            <FooterLink href="/contact">Contáctenos</FooterLink>
+            <FooterLink href="/" as={Link}>Home</FooterLink>
+            <FooterLink href="/menu" as={Link}>Menú</FooterLink>
+            <FooterLink href="/hosting" as={Link}>Hospedaje</FooterLink>
+            <FooterLink href="/contact" as={Link}>Contáctenos</FooterLink>
           </FooterLinkGroup>
         </div>
         <FooterDivider />
