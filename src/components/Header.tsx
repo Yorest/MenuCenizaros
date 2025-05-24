@@ -8,7 +8,7 @@ import {
   NavbarLink,
   NavbarToggle,
 } from "flowbite-react";
-import logo from "@/images/logo.svg";
+// import logo from "@/images/logo.svg";
 
 export function Header(){
 
@@ -17,7 +17,7 @@ export function Header(){
           <Navbar fluid className="w-full">
             <NavbarBrand as={Link} href="/">
               <img
-                src={logo}
+                src="images/logo.svg"
                 className="mr-3 h-6 sm:h-9"
                 alt="Logo Los Cenizaros"
               />

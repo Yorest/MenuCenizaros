@@ -19,7 +19,7 @@ code {
 }
 
 .customImg{
-  background-image: image-set( "./images/bg-s.png" 1x, "./images/bg.png" 2x)
+  background-image: image-set( url("/images/bg-s.png") 1x, url("/images/bg.png") 2x)
 }
 
 .App {  

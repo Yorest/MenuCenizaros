@@ -58,5 +58,88 @@ export const hostings : HostingType[] = [
                 alt: "exterior cabinas tipo módulo",
             },
         ],
+    },
+    {
+        title: "Cabaña equipada",
+        description:
+            "Especialmente diseñadas para grupo de amigos o familias. El hospedaje incluye el uso de nuestras instalaciones (a partir de las 9 a.m.).",
+        price_per_night: 60000,
+        price_description: "para 5 personas",
+        price_per_person: 12000,
+        maximum_capacity: "8 personas por cabaña",
+        check_in: "1:00 p.m.",
+        check_out: "12:00 m.d.",
+        specs: [
+            "Aire acondicionado",
+            "Pantalla",
+            "TV cable",
+            "Refrigerador",
+            "coffee maker",
+            "Sartén eléctrico",
+            "Vajilla",
+            "Olla arrocera",
+            "Piscinas",
+            "Parqueo privado",
+        ],
+        images: [
+            {
+                url: "images/cabaña-1.jpeg",
+                alt: "exterior cabaña",
+            },
+            {
+                url: "images/cabaña-2.jpeg",
+                alt: "interior cabaña",
+            },
+            {
+                url: "images/cabaña-3.jpeg",
+                alt: "cocina cabaña",
+            },
+            {
+                url: "images/cabaña-4.jpeg",
+                alt: "cuarto cabaña",
+            },
+            {
+                url: "images/cabaña-6.jpeg",
+                alt: "comedor cabaña",
+            },
+        ],
+    },
+    {
+        title: "Casa equipada",
+        description:
+            "Especialmente para grupo de amigos o familias. El hospedaje incluye el uso de nuestras instalaciones (a partir de las 9 a.m.).",
+        price_per_night: 96000,
+        price_description: "para 8 personas",
+        price_per_person: 12000,
+        maximum_capacity: "10 personas por casa",
+        check_in: "1:00 p.m.",
+        check_out: "12:00 m.d.",
+        specs: [
+            "3 habitaciones",
+            "Cocina equipada",
+            "Sala equipada",
+            "Baño",
+            "Corredores",
+            "Aire acondicionado",
+            "WIFI",
+        ],
+        images: [
+            {
+                url: "images/casa-1.jpeg",
+                alt: "exterior casa",
+            },
+            {
+                url: "images/casa-2.jpeg",
+                alt: "interior casa",
+            },
+            {
+                url: "images/casa-3.jpeg",
+                alt: "cocina casa",
+            },
+            {
+                url: "images/casa-4.jpeg",
+                alt: "baño casa",
+            },
+        ],
     }
 ]

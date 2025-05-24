@@ -30,8 +30,8 @@ export function MenuItem({category, note, image, dishes, id} : CategoryFoodType 
                 ))}
 
                 <img
-                    className="relative top-16 "
-                    src={`./src/${image.src}`}
+                    className="relative top-16 -mt-12"
+                    src={`${image.src}`}
                     alt={image.alt}
                     title={image.title}
                 />

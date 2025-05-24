@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import {SpinnerComponent} from "@/components/SpinnerComponent";
 import React, { Suspense } from "react";
 const MenuSection = React.lazy(() =>
   import("@/components/MenuSection").then((module) => ({
@@ -12,7 +13,11 @@ export const Route = createFileRoute("/menu")({
 
 function RouteComponent() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense
+      fallback={
+        <SpinnerComponent/>
+      }
+    >
       <MenuSection />
     </Suspense>
   );

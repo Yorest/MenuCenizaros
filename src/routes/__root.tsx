@@ -4,7 +4,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+// import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import { FooterComponent } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { CustomThemeProvider } from "@/components/CustomThemeProvider";
@@ -14,12 +14,12 @@ export const Route = createRootRoute({
     <>
       <HeadContent />
 
-      <div className="max-w-screen-xl">
+      <div className="max-w-screen-xl bg-white">
         <CustomThemeProvider>
           <Header />
           <Outlet />
           <FooterComponent />
-          <TanStackRouterDevtools />
+          {/* <TanStackRouterDevtools /> */}
         </CustomThemeProvider>
       </div>
       <Scripts />

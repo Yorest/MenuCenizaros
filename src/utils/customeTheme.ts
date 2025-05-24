@@ -1,4 +1,4 @@
-import { createTheme, ThemeProvider, ThemeConfig } from "flowbite-react";
+import { createTheme, } from "flowbite-react";
 
 export const customTheme = createTheme({
       navbar: {

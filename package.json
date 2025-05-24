@@ -10,6 +10,8 @@
     "test": "vitest run",
     "postinstall": "flowbite-react patch"
   },
+  "homepage": "https://qr.xtremeart.net/loscenizaros",
+  "version": "1.0.0",
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-router": "^1.114.3",
@@ -20,6 +22,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
+    "react-toastify": "^11.0.5",
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
