@@ -134,3 +134,6 @@ backend/dist
 
 # Replit debugger
 .breakpoints
+.replit
+.vscode
+.flowbite-react
