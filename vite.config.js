@@ -19,5 +19,6 @@ export default defineConfig({
   },
   server: {
     allowedHosts: true,
-  }
+  },
+  base: "https://qr.xtremeart.net/loscenizaros/" // production path
 });

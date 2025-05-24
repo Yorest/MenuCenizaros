@@ -10,7 +10,7 @@
     "test": "vitest run",
     "postinstall": "flowbite-react patch"
   },
-  "homepage": "https://qr.xtremeart.net/loscenizaros",
+  "homepage": "https://qr.xtremeart.net/",
   "version": "1.0.0",
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",

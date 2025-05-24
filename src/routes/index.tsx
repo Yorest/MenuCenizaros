@@ -15,10 +15,10 @@ const MenuSection = React.lazy(() =>
 );
 
 export const Route = createFileRoute("/")({
-  component: App,
+  component: RouteComponent,
 });
 
-function App() {
+function RouteComponent() {
   return (
     <>
       <Suspense fallback={<SpinnerComponent/>}>

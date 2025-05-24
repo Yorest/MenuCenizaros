@@ -65,7 +65,7 @@ function RouteComponent() {
     try {
       setIsSendEmail(true);
       const response = await useSendEmail(
-        "https://d1795e7d-157f-469e-b101-37bc765a6c42-00-1cb6l39iievh3.kirk.replit.dev/api/send",
+        "https://api.xtremeart.net/api/send",
         dataToSend,
       );
 
@@ -106,27 +106,6 @@ function RouteComponent() {
             </p>
 
             <ul className="mt-12 space-y-4">
-              {/* <li className="flex items-center flex-row gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16px"
-                  height="16px"
-                  fill="#ccc"
-                  viewBox="0 0 479.058 479.058"
-                  className="w-5 h-5"
-                >
-                  <path
-                    d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
-                    data-original="#000000"
-                  />
-                </svg>
-                <a
-                  href="mailto:loscenizarosdp@gmail.com"
-                  className="text-green-500 text-base"
-                >
-                  loscenizarosdp@gmail.com
-                </a>
-              </li> */}
               <li className="flex items-center flex-row gap-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -198,30 +177,6 @@ function RouteComponent() {
               onSubmit={handleSubmit}
             >
               <div className="flex items-center flex-wrap gap-3 mt-2">
-                {/* <button
-                type="button"
-                onClick={() => handleInterestChange("Hospedaje")}
-                className="px-4 py-2 rounded-lg bg-green-500 text-white text-sm tracking-wider font-medium outline-0 cursor-pointer hover:bg-green-800 focus:ring-4 focus:ring-green-300"
-              >
-                Hospedaje
-              </button>
-
-              <button
-                type="button"
-                onClick={() => handleInterestChange("Eventos")}
-                className="px-4 py-2 rounded-lg bg-green-500 text-white text-sm tracking-wider font-medium outline-0 cursor-pointer hover:bg-green-800 focus:ring-4 focus:ring-green-300"
-              >
-                Eventos
-              </button>
-
-              <button
-                type="button"
-                onClick={() => handleInterestChange("Catering")}
-                className="px-4 py-2 rounded-lg bg-green-500 text-white text-sm tracking-wider font-medium outline-0 cursor-pointer hover:bg-green-800 focus:ring-4 focus:ring-green-300"
-              >
-                Catering service
-              </button> */}
-
                 <div className="flex flex-row">
                   <input
                     type="radio"
