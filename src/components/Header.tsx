@@ -24,7 +24,7 @@ export function Header(){
             </NavbarBrand>
             <NavbarToggle />
             <NavbarCollapse>
-              <NavbarLink as={Link} href="/" active>
+              <NavbarLink as={Link} href="/" >
                 Home
               </NavbarLink>
               <NavbarLink as={Link} href="/menu">

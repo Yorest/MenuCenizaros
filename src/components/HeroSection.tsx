@@ -1,4 +1,7 @@
-import { motion } from "motion/react"
+import { motion } from "motion/react";
+import {
+  Link, 
+} from "@tanstack/react-router";
 export function HeroSection(){
     return (
           <section className="App  customImg">
@@ -22,13 +25,13 @@ export function HeroSection(){
                 experiencia única y relajante.
               </motion.p>
               <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <motion.a
+                <motion.div                  
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ ease: "easeInOut", duration: 1, delay: 0.7 }}
-                  href="/menu"
-                  className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300"
+                  transition={{ ease: "easeInOut", duration: 1, delay: 0.7 }}    
+                  
                 >
+                  <Link to="/menu"  className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300">
                   ver Menú
                   <svg
                     className="ml-2 -mr-1 w-5 h-5"
@@ -42,14 +45,14 @@ export function HeroSection(){
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                </motion.a>
-                <motion.a
+                    </Link>
+                </motion.div>
+                <motion.div
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ ease: "easeInOut", duration: 1, delay: 0.9 }}
-                  href="/hosting"
-                  className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-green-300 hover:bg-green-600 focus:ring-4 focus:ring-green-300 "
+                  transition={{ ease: "easeInOut", duration: 1, delay: 0.9 }}    
                 >
+                  <Link to="/hosting" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-green-300 hover:bg-green-600 focus:ring-4">
                   Hospedaje
                   <svg
                     className="ml-2 -mr-1 w-5 h-5"
@@ -63,7 +66,8 @@ export function HeroSection(){
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                </motion.a>
+                    </Link>
+                </motion.div>
               </div>
             </div>
           </section>
