@@ -1,5 +1,11 @@
 Welcome to your new TanStack app! 
 
+# Install New Project
+
+```
+pnpx create-tsrouter-app@latest my-app --template typescript --tailwind --package-manager pnpm
+```
+
 # Getting Started
 
 To run this application:
