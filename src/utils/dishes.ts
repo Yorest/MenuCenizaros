@@ -3,7 +3,7 @@ import type { CategoryFoodType } from "@/utils/dishesTypes";
 export const dishesItems: CategoryFoodType[] = [
     {
         category: "Del potrero",
-        note: "Todos incluyen papas salteadas y vegetales",
+        note: "Todos incluyen papas en gajo y ensalada.",
         image: {
             src: "images/Rib_Eyes.png",
             alt: "Corte de Res Rib Eyes",
@@ -12,8 +12,7 @@ export const dishesItems: CategoryFoodType[] = [
         dishes: [
             {
                 name: "Corte de res Rib Eyes Angus",
-                description:
-                    'El Ribeye (350 g) consiste en porciones individuales de 3/4" extraídas a partir del corte “punta a punta” del Beef Rib, Rib eye Lip On. La pieza se distingue por ser uno de los cortes finos con buena suavidad, sabor y jugosidad gracias al conjunto de músculos que lo conforman.',
+                description: "",
                 id: "Rib_eyes",
                 price: 11600,
             },
