@@ -57,6 +57,18 @@ export const hostings : HostingType[] = [
                 url: "images/modulos-5.jpeg",
                 alt: "exterior cabinas tipo módulo",
             },
+            {
+                url: "images/modulos-6.jpeg",
+                alt: "exterior cabinas tipo módulo",
+            },
+            {
+                url: "images/modulos-7.jpeg",
+                alt: "desayunador frontal cabinas tipo módulo",
+            },
+            {
+                url: "images/modulos-8.jpeg",
+                alt: "desayunador cabinas tipo módulo",
+            },
         ],
     },
     {
