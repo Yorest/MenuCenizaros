@@ -10,6 +10,17 @@ export const Route = createFileRoute("/hosting")({
       hostings,
     };
   },
+  head: () => ({
+    meta: [
+      {
+        name: "description",
+        content: "Lugar para pasarla bien",
+      },
+      {
+        title: "Hospedaje | Los Cenizaros",
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

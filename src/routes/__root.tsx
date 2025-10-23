@@ -33,7 +33,7 @@ export const Route = createRootRoute({
         content: "Lugar para pasarla bien",
       },
       {
-        title: "Menu | Los Cenizaros",
+        title: "Información | Los Cenizaros",
       },
     ],
     links: [

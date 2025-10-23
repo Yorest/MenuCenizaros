@@ -9,6 +9,17 @@ const MenuSection = React.lazy(() =>
 
 export const Route = createFileRoute("/menu")({
   component: RouteComponent,
+  head: () => ({
+    meta: [
+      {
+        name: "description",
+        content: "Lugar para pasarla bien",
+      },
+      {
+        title: "Menú | Los Cenizaros",
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

@@ -9,6 +9,17 @@ import "react-toastify/dist/ReactToastify.css";
 
 export const Route = createFileRoute("/contact")({
   component: RouteComponent,
+  head: () => ({
+    meta: [
+      {
+        name: "description",
+        content: "Lugar para pasarla bien",
+      },
+      {
+        title: "Contáctenos | Los Cenizaros",
+      },
+    ],
+  }),
 });
 
 type Formtype = {
@@ -98,7 +109,7 @@ function RouteComponent() {
         <div className="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4">
           <div>
             <h1 className="text-4xl font-semibold text-green-500 mt-6">
-              Contáctanos
+              Contáctenos
             </h1>
             <p className="text-sm text-gray-500 mt-6 leading-relaxed">
               Es un gusto atenderles, tenemos el espacio ideal para tus
