@@ -28,8 +28,7 @@ export const HostingItem = ({
                     <div className="mb-4 w-fit ">
                         <div className="flex flex-col items-start mb-4 bg-green-50 text-green-500 font-bold p-3 text-xl rounded-lg">
                             <div className="flex fle-row gap-2">
-                                <span className="">{`Precio: `}</span>
-                                {`₡ ${price_per_night}`}
+                                <span className="">{`Precio: ₡ ${price_per_night}`}</span>                              
                                 <p className="font-normal text-base flex items-center">
                                     precio por noche
                                 </p>
