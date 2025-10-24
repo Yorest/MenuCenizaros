@@ -38,7 +38,7 @@ export const hostings : HostingType[] = [
         ],
         images: [
             {
-                url: "images/modulos-1.jpeg",
+                url: "images/modulos-1.jpg",
                 alt: "exterior cabinas tipo módulo",
             },
             {
@@ -58,7 +58,7 @@ export const hostings : HostingType[] = [
                 alt: "exterior cabinas tipo módulo",
             },
             {
-                url: "images/modulos-6.jpeg",
+                url: "images/modulos-6.jpg",
                 alt: "exterior cabinas tipo módulo",
             },
             {
@@ -111,8 +111,20 @@ export const hostings : HostingType[] = [
                 alt: "cuarto cabaña",
             },
             {
+                url: "images/cabana-5.jpeg",
+                alt: "cuarto cabaña",
+            },
+            {
                 url: "images/cabana-6.jpeg",
                 alt: "comedor cabaña",
+            },
+            {
+                url: "images/cabana-7.jpeg",
+                alt: "cocina cabaña",
+            },
+            {
+                url: "images/cabana-8.jpeg",
+                alt: "exterior cabaña",
             },
         ],
     },
@@ -151,6 +163,22 @@ export const hostings : HostingType[] = [
             {
                 url: "images/casa-4.jpeg",
                 alt: "baño casa",
+            },
+            {
+                url: "images/casa-5.jpg",
+                alt: "exterior casa",
+            },
+            {
+                url: "images/casa-6.jpg",
+                alt: "dormitorio casa",
+            },
+            {
+                url: "images/casa-7.jpg",
+                alt: "desayunador casa",
+            },
+            {
+                url: "images/casa-8.jpg",
+                alt: "exterior casa",
             },
         ],
     }
