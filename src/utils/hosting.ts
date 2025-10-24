@@ -95,23 +95,23 @@ export const hostings : HostingType[] = [
         ],
         images: [
             {
-                url: "images/cabaña-1.jpeg",
+                url: "images/cabana-1.jpeg",
                 alt: "exterior cabaña",
             },
             {
-                url: "images/cabaña-2.jpeg",
+                url: "images/cabana-2.jpeg",
                 alt: "interior cabaña",
             },
             {
-                url: "images/cabaña-3.jpeg",
+                url: "images/cabana-3.jpeg",
                 alt: "cocina cabaña",
             },
             {
-                url: "images/cabaña-4.jpeg",
+                url: "images/cabana-4.jpeg",
                 alt: "cuarto cabaña",
             },
             {
-                url: "images/cabaña-6.jpeg",
+                url: "images/cabana-6.jpeg",
                 alt: "comedor cabaña",
             },
         ],
