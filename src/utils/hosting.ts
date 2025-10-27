@@ -35,6 +35,7 @@ export const hostings : HostingType[] = [
             "Parqueo privado",
             "Piscinas",
             "TV cable",
+            "Mini refrigerador",
         ],
         images: [
             {
